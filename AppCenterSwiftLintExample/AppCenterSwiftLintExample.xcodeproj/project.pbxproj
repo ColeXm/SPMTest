@@ -7,113 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5609FCD8294193C30023EA9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609FCD7294193C30023EA9E /* AppDelegate.swift */; };
-		5609FCDA294193C30023EA9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609FCD9294193C30023EA9E /* SceneDelegate.swift */; };
-		5609FCDC294193C30023EA9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609FCDB294193C30023EA9E /* ViewController.swift */; };
-		5609FCDF294193C30023EA9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5609FCDD294193C30023EA9E /* Main.storyboard */; };
-		5609FCE1294193C60023EA9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5609FCE0294193C60023EA9E /* Assets.xcassets */; };
-		5609FCE4294193C60023EA9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5609FCE2294193C60023EA9E /* LaunchScreen.storyboard */; };
-		5609FCF92941C50E0023EA9E /* AppCenterAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5609FCF82941C50E0023EA9E /* AppCenterAnalytics */; };
-		5609FCFB2941C50E0023EA9E /* AppCenterCrashes in Frameworks */ = {isa = PBXBuildFile; productRef = 5609FCFA2941C50E0023EA9E /* AppCenterCrashes */; };
-		5609FCFD2941C50E0023EA9E /* AppCenterDistribute in Frameworks */ = {isa = PBXBuildFile; productRef = 5609FCFC2941C50E0023EA9E /* AppCenterDistribute */; };
+		FAE7DADB294333DB004745DD /* AppCenterSwiftLintExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7DADA294333DB004745DD /* AppCenterSwiftLintExampleApp.swift */; };
+		FAE7DADD294333DB004745DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7DADC294333DB004745DD /* ContentView.swift */; };
+		FAE7DADF294333DD004745DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE7DADE294333DD004745DD /* Assets.xcassets */; };
+		FAE7DAE2294333DD004745DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE7DAE1294333DD004745DD /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5609FCD4294193C30023EA9E /* SPM-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SPM-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5609FCD7294193C30023EA9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5609FCD9294193C30023EA9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5609FCDB294193C30023EA9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5609FCDE294193C30023EA9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5609FCE0294193C60023EA9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5609FCE3294193C60023EA9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5609FCE5294193C60023EA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE7DAD7294333DB004745DD /* AppCenterSwiftLintExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppCenterSwiftLintExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE7DADA294333DB004745DD /* AppCenterSwiftLintExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCenterSwiftLintExampleApp.swift; sourceTree = "<group>"; };
+		FAE7DADC294333DB004745DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAE7DADE294333DD004745DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAE7DAE1294333DD004745DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5609FCD1294193C30023EA9E /* Frameworks */ = {
+		FAE7DAD4294333DB004745DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5609FCF92941C50E0023EA9E /* AppCenterAnalytics in Frameworks */,
-				5609FCFB2941C50E0023EA9E /* AppCenterCrashes in Frameworks */,
-				5609FCFD2941C50E0023EA9E /* AppCenterDistribute in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5609FCCB294193C30023EA9E = {
+		FAE7DACE294333DB004745DD = {
 			isa = PBXGroup;
 			children = (
-				5609FCD6294193C30023EA9E /* SPM-Test */,
-				5609FCD5294193C30023EA9E /* Products */,
+				FAE7DAD9294333DB004745DD /* AppCenterSwiftLintExample */,
+				FAE7DAD8294333DB004745DD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5609FCD5294193C30023EA9E /* Products */ = {
+		FAE7DAD8294333DB004745DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5609FCD4294193C30023EA9E /* SPM-Test.app */,
+				FAE7DAD7294333DB004745DD /* AppCenterSwiftLintExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5609FCD6294193C30023EA9E /* SPM-Test */ = {
+		FAE7DAD9294333DB004745DD /* AppCenterSwiftLintExample */ = {
 			isa = PBXGroup;
 			children = (
-				5609FCD7294193C30023EA9E /* AppDelegate.swift */,
-				5609FCD9294193C30023EA9E /* SceneDelegate.swift */,
-				5609FCDB294193C30023EA9E /* ViewController.swift */,
-				5609FCDD294193C30023EA9E /* Main.storyboard */,
-				5609FCE0294193C60023EA9E /* Assets.xcassets */,
-				5609FCE2294193C60023EA9E /* LaunchScreen.storyboard */,
-				5609FCE5294193C60023EA9E /* Info.plist */,
+				FAE7DADA294333DB004745DD /* AppCenterSwiftLintExampleApp.swift */,
+				FAE7DADC294333DB004745DD /* ContentView.swift */,
+				FAE7DADE294333DD004745DD /* Assets.xcassets */,
+				FAE7DAE0294333DD004745DD /* Preview Content */,
 			);
-			path = "SPM-Test";
+			path = AppCenterSwiftLintExample;
+			sourceTree = "<group>";
+		};
+		FAE7DAE0294333DD004745DD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAE7DAE1294333DD004745DD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5609FCD3294193C30023EA9E /* SPM-Test */ = {
+		FAE7DAD6294333DB004745DD /* AppCenterSwiftLintExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5609FCE8294193C60023EA9E /* Build configuration list for PBXNativeTarget "SPM-Test" */;
+			buildConfigurationList = FAE7DAE5294333DD004745DD /* Build configuration list for PBXNativeTarget "AppCenterSwiftLintExample" */;
 			buildPhases = (
-				5609FCD0294193C30023EA9E /* Sources */,
-				5609FCD1294193C30023EA9E /* Frameworks */,
-				5609FCD2294193C30023EA9E /* Resources */,
+				FAE7DAD3294333DB004745DD /* Sources */,
+				FAE7DAD4294333DB004745DD /* Frameworks */,
+				FAE7DAD5294333DB004745DD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FAE7DAEA294334A0004745DD /* PBXTargetDependency */,
 			);
-			name = "SPM-Test";
-			packageProductDependencies = (
-				5609FCF82941C50E0023EA9E /* AppCenterAnalytics */,
-				5609FCFA2941C50E0023EA9E /* AppCenterCrashes */,
-				5609FCFC2941C50E0023EA9E /* AppCenterDistribute */,
-			);
-			productName = "SPM-Test";
-			productReference = 5609FCD4294193C30023EA9E /* SPM-Test.app */;
+			name = AppCenterSwiftLintExample;
+			productName = AppCenterSwiftLintExample;
+			productReference = FAE7DAD7294333DB004745DD /* AppCenterSwiftLintExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5609FCCC294193C30023EA9E /* Project object */ = {
+		FAE7DACF294333DB004745DD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					5609FCD3294193C30023EA9E = {
+					FAE7DAD6294333DB004745DD = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = 5609FCCF294193C30023EA9E /* Build configuration list for PBXProject "SPM-Test" */;
+			buildConfigurationList = FAE7DAD2294333DB004745DD /* Build configuration list for PBXProject "AppCenterSwiftLintExample" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,66 +111,52 @@
 				en,
 				Base,
 			);
-			mainGroup = 5609FCCB294193C30023EA9E;
+			mainGroup = FAE7DACE294333DB004745DD;
 			packageReferences = (
-				5609FCF72941C50E0023EA9E /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */,
+				FAE7DAE82943343B004745DD /* XCRemoteSwiftPackageReference "SwiftLintPlugin" */,
 			);
-			productRefGroup = 5609FCD5294193C30023EA9E /* Products */;
+			productRefGroup = FAE7DAD8294333DB004745DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5609FCD3294193C30023EA9E /* SPM-Test */,
+				FAE7DAD6294333DB004745DD /* AppCenterSwiftLintExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5609FCD2294193C30023EA9E /* Resources */ = {
+		FAE7DAD5294333DB004745DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5609FCE4294193C60023EA9E /* LaunchScreen.storyboard in Resources */,
-				5609FCE1294193C60023EA9E /* Assets.xcassets in Resources */,
-				5609FCDF294193C30023EA9E /* Main.storyboard in Resources */,
+				FAE7DAE2294333DD004745DD /* Preview Assets.xcassets in Resources */,
+				FAE7DADF294333DD004745DD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5609FCD0294193C30023EA9E /* Sources */ = {
+		FAE7DAD3294333DB004745DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5609FCDC294193C30023EA9E /* ViewController.swift in Sources */,
-				5609FCD8294193C30023EA9E /* AppDelegate.swift in Sources */,
-				5609FCDA294193C30023EA9E /* SceneDelegate.swift in Sources */,
+				FAE7DADD294333DB004745DD /* ContentView.swift in Sources */,
+				FAE7DADB294333DB004745DD /* AppCenterSwiftLintExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		5609FCDD294193C30023EA9E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5609FCDE294193C30023EA9E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		FAE7DAEA294334A0004745DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = FAE7DAE9294334A0004745DD /* SwiftLint */;
 		};
-		5609FCE2294193C60023EA9E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5609FCE3294193C60023EA9E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5609FCE6294193C60023EA9E /* Debug */ = {
+		FAE7DAE3294333DD004745DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -240,7 +216,7 @@
 			};
 			name = Debug;
 		};
-		5609FCE7294193C60023EA9E /* Release */ = {
+		FAE7DAE4294333DD004745DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -294,19 +270,19 @@
 			};
 			name = Release;
 		};
-		5609FCE9294193C60023EA9E /* Debug */ = {
+		FAE7DAE6294333DD004745DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = R27MT28R2X;
+				DEVELOPMENT_ASSET_PATHS = "\"AppCenterSwiftLintExample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SPM-Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -314,7 +290,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cole.map.SPM-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcenter.swiftlint.example.AppCenterSwiftLintExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -322,19 +298,19 @@
 			};
 			name = Debug;
 		};
-		5609FCEA294193C60023EA9E /* Release */ = {
+		FAE7DAE7294333DD004745DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = R27MT28R2X;
+				DEVELOPMENT_ASSET_PATHS = "\"AppCenterSwiftLintExample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SPM-Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -342,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cole.map.SPM-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcenter.swiftlint.example.AppCenterSwiftLintExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -353,20 +329,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5609FCCF294193C30023EA9E /* Build configuration list for PBXProject "SPM-Test" */ = {
+		FAE7DAD2294333DB004745DD /* Build configuration list for PBXProject "AppCenterSwiftLintExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5609FCE6294193C60023EA9E /* Debug */,
-				5609FCE7294193C60023EA9E /* Release */,
+				FAE7DAE3294333DD004745DD /* Debug */,
+				FAE7DAE4294333DD004745DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5609FCE8294193C60023EA9E /* Build configuration list for PBXNativeTarget "SPM-Test" */ = {
+		FAE7DAE5294333DD004745DD /* Build configuration list for PBXNativeTarget "AppCenterSwiftLintExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5609FCE9294193C60023EA9E /* Debug */,
-				5609FCEA294193C60023EA9E /* Release */,
+				FAE7DAE6294333DD004745DD /* Debug */,
+				FAE7DAE7294333DD004745DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -374,33 +350,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		5609FCF72941C50E0023EA9E /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */ = {
+		FAE7DAE82943343B004745DD /* XCRemoteSwiftPackageReference "SwiftLintPlugin" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/microsoft/appcenter-sdk-apple.git";
+			repositoryURL = "https://github.com/lukepistrol/SwiftLintPlugin";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
+				branch = main;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5609FCF82941C50E0023EA9E /* AppCenterAnalytics */ = {
+		FAE7DAE9294334A0004745DD /* SwiftLint */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5609FCF72941C50E0023EA9E /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;
-			productName = AppCenterAnalytics;
-		};
-		5609FCFA2941C50E0023EA9E /* AppCenterCrashes */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5609FCF72941C50E0023EA9E /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;
-			productName = AppCenterCrashes;
-		};
-		5609FCFC2941C50E0023EA9E /* AppCenterDistribute */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5609FCF72941C50E0023EA9E /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;
-			productName = AppCenterDistribute;
+			package = FAE7DAE82943343B004745DD /* XCRemoteSwiftPackageReference "SwiftLintPlugin" */;
+			productName = "plugin:SwiftLint";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 5609FCCC294193C30023EA9E /* Project object */;
+	rootObject = FAE7DACF294333DB004745DD /* Project object */;
 }
